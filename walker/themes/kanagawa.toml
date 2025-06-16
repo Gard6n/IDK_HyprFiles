@@ -1,0 +1,10 @@
+
+[ui.anchors]
+bottom = true
+left = false
+right = false
+top = false
+
+[ui.window.margins]
+bottom = 32
+

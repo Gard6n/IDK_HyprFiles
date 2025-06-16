@@ -1,0 +1,61 @@
+
+@define-color foreground rgba(255, 255, 255, 0.8);
+@define-color background hsla(240, 12.7%, 13.9%, 0.98);
+@define-color color1 hsl(172, 100%, 25.3%);
+
+#window,
+#box,
+#aiScroll,
+#aiList,
+#search,
+#password,
+#input,
+#prompt,
+#clear,
+#typeahead,
+#list,
+child,
+scrollbar,
+slider,
+#item,
+#text,
+#label,
+#bar,
+#sub,
+#activationlabel {
+  all: unset;
+}
+
+#cfgerr {
+  background: rgba(255, 0, 0, 0.4);
+  margin-top: 20px;
+  padding: 8px;
+  font-size: 1.2em;
+}
+
+#window {
+  color: @foreground;
+}
+
+#box {
+  border-radius: 2px;
+  background: rgba(19, 23, 27, 0.916);
+  padding: 11px;
+  border: 1px solid lighter(@background);
+  box-shadow:
+    0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#search {
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.595),
+    0 1px 2px rgb(0, 0, 0);
+  background: lighter(@background);
+  padding: 7px;
+}
+
+#icon {
+  margin-right: 10px;
+}
+
