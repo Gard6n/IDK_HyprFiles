@@ -2,7 +2,7 @@
 This is my personal dotfiles that I use for hyprland 
 
 
-This is the list of programs that I am using for this setup:
+The programs that I am using for this setup:
 
 - waybar
 - nwg-display
@@ -12,3 +12,4 @@ This is the list of programs that I am using for this setup:
 - waypaper
 - udiskie
 - nautilus
+- uwsm
