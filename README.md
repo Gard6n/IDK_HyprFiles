@@ -13,3 +13,6 @@ The programs that I am using for this setup:
 - udiskie
 - nautilus
 - uwsm
+- clipse
+- wl-clipboard
+  
