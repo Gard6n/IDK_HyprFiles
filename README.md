@@ -15,4 +15,5 @@ The programs that I am using for this setup:
 - uwsm
 - clipse
 - wl-clipboard
+- hyprshot
   
