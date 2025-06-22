@@ -17,4 +17,4 @@ The programs that I am using for this setup:
 - wl-clipboard
 - hyprshot
 - nwg-bar
-  
+- hyprsunset
