@@ -16,4 +16,5 @@ The programs that I am using for this setup:
 - clipse
 - wl-clipboard
 - hyprshot
+- nwg-bar
   
