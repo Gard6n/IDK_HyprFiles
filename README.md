@@ -1,7 +1,7 @@
 
 This is my personal dotfiles that I use for hyprland 
 
-## Programs 
+## -- Programs --
 > Applications that the dotfiles are configured for
 
 - waybar
@@ -20,7 +20,7 @@ This is my personal dotfiles that I use for hyprland
 - hyprsunset
 
 
-## Look
+## -- Look --
 ![image](https://github.com/user-attachments/assets/f61433b5-8d7d-4fb6-b6f1-eaefd5ba654b)
 
 
