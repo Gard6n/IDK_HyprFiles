@@ -1,8 +1,8 @@
 # Hyprland_Dot_Files
 This is my personal dotfiles that I use for hyprland 
 
-
-The programs that I am using for this setup:
+## Programs 
+Applications that the dotfiles are configured for
 
 - waybar
 - nwg-display
