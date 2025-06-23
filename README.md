@@ -26,8 +26,7 @@ Applications that the dotfiles are configured for
 
 ## -- Keybinds --
 
-- Main Keybinds -
- ---------------
+Main Keybinds -
 
 | Key                                                                     | Description                                                              |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -43,6 +42,6 @@ Applications that the dotfiles are configured for
 | `CTRL ALT, Alt_R`                                                       | ScreenShot -- Saves only a region you select and to the clipboard        |
 | `CTRL, Slash`                                                           | Notification bar                                                         |
 
-<More bindings 
-<[keybinds](https://github.com/Gard6n/Hyprland_Dot_Files/wiki/Keybinds)
+< More bindings 
+< [keybinds](https://github.com/Gard6n/Hyprland_Dot_Files/wiki/Keybinds)
 
