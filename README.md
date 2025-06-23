@@ -29,8 +29,8 @@ Applications that the dotfiles are configured for
 - Main Keybinds -
  ---------------
 
->-Loads app launcher
->ALT, Period
+>-
+>
 >-Launch terminal
 >ALT, Q
 >-loses the active program
@@ -51,6 +51,25 @@ Applications that the dotfiles are configured for
 >CTRL ALT, Alt_R
 >-Notification bar
 >CTRL, Slash
+
+
+| Key                                                                     | Description                                                              |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| `ALT, Period`                                                           | Loads app launcher                                                       |
+| `Alt+Enter`                                                             | activate selection with alternative command. By default: run in terminal |
+| `Shift+Enter`                                                           | activate selection without closing                                       |
+| `Ctrl+j` (if ActivationMode is disabled), `Down`, `Tab`                 | next entry                                                               |
+| `Ctrl+k` (if ActivationMode is disabled), `Up`, `LEFT_TAB` (shift+tab?) | previous entry                                                           |
+| `Escape`                                                                | close                                                                    |
+| `Ctrl + Label`                                                          | Activate item by label                                                   |
+| `Ctrl + c`                                                              | AI: copy last response                                                   |
+| `Ctrl + r`                                                              | All (service-only): resume last query,AI: resume last session for prompt |
+| `Ctrl + x`                                                              | AI: clear current session                                                |
+| `Ctrl + e`                                                              | AI: run last message in terminal                                         |
+| `Ctrl + m`                                                              | toggle exact match search                                                |
+| `Ctrl + Shift + Label`                                                  | Activate item by label without closing                                   |
+| `Shift+Backspace`                                                       | All: delete entry from history, Clipboard: remove from clipboard         |
+
 
 
 
