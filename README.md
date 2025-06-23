@@ -26,7 +26,7 @@ Applications that the dotfiles are configured for
 
 ## -- Keybinds --
 
-Main Keybinds -
+> Main Keybinds 
 
 | Key                                                                     | Description                                                              |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
