@@ -20,11 +20,11 @@ The programs that I am using for this setup:
 - hyprsunset
 
 
-Look
+## Look
 ![image](https://github.com/user-attachments/assets/f61433b5-8d7d-4fb6-b6f1-eaefd5ba654b)
 
 
--- Keybinds --
+## -- Keybinds --
 
 https://github.com/Gard6n/Hyprland_Dot_Files/wiki/Keybinds
 
