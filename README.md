@@ -18,3 +18,6 @@ The programs that I am using for this setup:
 - hyprshot
 - nwg-bar
 - hyprsunset
+
+-- Keybinds --
+https://github.com/Gard6n/Hyprland_Dot_Files/wiki/Keybinds
