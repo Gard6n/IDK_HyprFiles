@@ -26,5 +26,5 @@ Applications that the dotfiles are configured for
 
 ## -- Keybinds --
 
-https://github.com/Gard6n/Hyprland_Dot_Files/wiki/Keybinds
+[keybinds](https://github.com/Gard6n/Hyprland_Dot_Files/wiki/Keybinds)
 
