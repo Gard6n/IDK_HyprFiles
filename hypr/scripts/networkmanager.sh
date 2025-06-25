@@ -1,1 +1,3 @@
-$(cat ~/.config/hypr/scripts/terminal.sh) --class dotfiles-floating -e nmtui
+#!/bin/bash
+
+$(cat ~/.config/hypr/scripts/terminal.sh) -e nmtui
