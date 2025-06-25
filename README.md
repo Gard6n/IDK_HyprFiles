@@ -4,23 +4,23 @@ This is my personal dotfiles that I use for hyprland
 ## -- Programs --
 > Applications that the dotfiles are configured for
 
-- waybar
-- nwg-display
-- kitty
-- swaync
-- walker
-- waypaper
-- udiskie
-- nautilus
-- uwsm
-- clipse
-- wl-clipboard
-- hyprshot
-- nwg-bar
-- hyprsunset
-- yazi
-- vesktop
-- spotify
+- [Waybar](https://github.com/Alexays/Waybar)
+- [nwg-displays](https://github.com/nwg-piotr/nwg-displays)
+- [kitty](https://github.com/kovidgoyal/kitty)
+- [swaync](https://github.com/kovidgoyal/kittyhttps://github.com/ErikReider/SwayNotificationCenter)
+- [walker](https://github.com/abenz1267/walker)
+- [waypaper](https://github.com/anufrievroman/waypaper)
+- [udiskie](https://github.com/coldfix/udiskie)
+- [nautilus](https://github.com/GNOME/nautilus)
+- [uwsm](https://github.com/Vladimir-csp/uwsm)
+- [clipse](https://github.com/savedra1/clipse)
+- [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+- [hyprshot](https://github.com/Gustash/Hyprshot)
+- [nwg-bar](https://github.com/nwg-piotr/nwg-bar)
+- [hyprsunset](https://github.com/hyprwm/hyprsunset)
+- [yazi](https://github.com/sxyazi/yazi)
+- [vesktop](https://github.com/Vencord/Vesktop)
+- [spotify](https://github.com/kpcyrd/spotify-launcher)
 
 
 ## -- Look --
