@@ -7,27 +7,29 @@
   "$HOME/.config/waybar/ModulesGroups",
   "$HOME/.config/waybar/UserModules"
   ],
-"layer": "top",
+"layer": "bottom",
 "mode": "dock",
 "exclusive": true,
-"passthrough": false,
-"position": "bottom",
-"spacing": 5,
+"passthrough": true,
+"position": "top",
+"spacing": 0,
 "fixed-center": true,
 "ipc": true,
-"margin-left": 5,
-"margin-right": 5,
-"margin-top": 0,
+"margin-left": 3,
+"margin-right": 3,
+"margin-top": 1,
+"margin-bottom": 2,
 	
 "modules-left": [
 	"clock#5", 
-	"mpris", 
+	"custom/separator#line",
 	"tray", 
 	"group/notify",
-	"custom/updater"
+	"custom/separator#line",
+	"custom/playerctl"
 	],
   
-"modules-center": ["hyprland/workspaces#numbers"], 
+"modules-center": ["hyprland/workspaces#roman"], 
 	
 "modules-right": [
 	"bluetooth",
