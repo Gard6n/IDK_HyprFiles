@@ -18,6 +18,9 @@ This is my personal dotfiles that I use for hyprland
 - hyprshot
 - nwg-bar
 - hyprsunset
+- yazi
+- vesktop
+- spotify
 
 
 ## -- Look --
