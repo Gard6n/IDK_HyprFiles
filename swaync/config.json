@@ -11,7 +11,7 @@
   "control-center-positionX":"left",
   "control-center-positionY":"bottom",
   "fit-to-screen": false,
-  "hide-on-action": true,
+  "hide-on-action": false,
   "hide-on-clear": false,
   "image-visibility": "when-available",
   "keyboard-shortcuts": true,
@@ -50,6 +50,13 @@
           "active": false,
           "command": "nwg-bar -p bottom",
           "label": "",
+          "type": "button"
+        },
+
+        {
+          "active": false,
+          "command": "$HOME/.config/Linux_Scripts/mullvad-vpn-run.sh",
+          "label": "VPN",
           "type": "button"
         }
       ]
