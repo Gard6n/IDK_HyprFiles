@@ -23,6 +23,9 @@ This is my personal dotfiles that I use for hyprland
 ## -- Look --
 ![image](https://github.com/user-attachments/assets/f61433b5-8d7d-4fb6-b6f1-eaefd5ba654b)
 
+![image](https://github.com/user-attachments/assets/1c16d6e7-52e5-4dc0-8111-14f95fcbc13e)
+
+
 
 ## -- Keybinds --
 
