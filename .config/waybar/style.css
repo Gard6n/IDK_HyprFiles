@@ -1,0 +1,228 @@
+
+* {
+font-family: "JetBrainsMono Nerd Font";
+font-weight: bold;
+min-height: 0;
+/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
+font-size: 99%;
+font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+padding: 1px;
+}
+
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  box-shadow: none;
+}
+
+window#waybar.hidden {
+  opacity: 0.3;
+}
+
+#waybar.empty #window {
+  background: none;
+}
+
+#backlight,
+#backlight-slider,
+#battery,
+#bluetooth,
+#clock,
+#cpu,
+#disk,
+#idle_inhibitor,
+#keyboard-state,
+#memory,
+#mode,
+#mpris,
+#network,
+#power-profiles-daemon,
+#pulseaudio,
+#pulseaudio-slider,	
+#taskbar,
+#temperature,
+#tray,
+#window,
+#wireplumber,
+#workspaces,
+#custom-backlight,
+#custom-browser,
+#custom-cava_mviz,
+#custom-cycle_wall,
+#custom-file_manager,
+#custom-keybinds,
+#custom-keyboard,
+#custom-light_dark,
+#custom-lock,
+#custom-hypridle,
+#custom-menu,
+#custom-power_vertical,
+#custom-power,
+#custom-quit,
+#custom-reboot,
+#custom-settings,
+#custom-spotify,
+#custom-tty,
+#custom-weather,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.default, 
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.severe,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.sunnyDay,
+#custom-playerctl,
+#custom-separator{
+	color: #0362fc;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+
+	background-color: #000000;
+	padding: 4px 6px; 
+    margin-top: 6px; 
+    margin-left: 6px; 
+    margin-right: 6px; 
+    border-radius: 11px;
+    border-width: 0px;
+	opacity: 0.8;
+}
+/* Makes the black rounded bar around the itemes*/
+
+
+#custom-swaync{
+	margin-top: 6px; 
+	margin-left: 6px;
+	padding: 4px 6px;
+	border-radius: 11px 0 0 11px;
+	border-width: 0px;
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+
+	color: #0362fc;
+	background-color: #000000;
+	opacity: 0.8;
+}
+
+
+
+#custom-updater{
+	padding: 4px 6px;
+	border-radius: 0 11px 11px 0;
+    border-width: 0px;
+	margin-top: 6px; 
+ 
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+
+	color: #0362fc;
+	background-color: #000000;
+	opacity: 0.8;
+}
+
+
+
+
+/*-----Indicators----*/
+#custom-hypridle.notactive,
+#idle_inhibitor.activated {
+	color: cyan;
+}
+
+#battery.critical:not(.charging) {
+	color: #f53c3c;
+	animation-name: blink;
+	animation-duration: 3.0s;
+	animation-timing-function: steps(12);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#taskbar button,
+#workspaces button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 9px;
+    padding-left: 4px;
+    padding-right: 4px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+    color: #0362fc;
+}
+
+#taskbar button:hover,
+#workspaces button:hover {
+	border-radius: 10px;
+	background-color: #cc0a0a;
+ 	padding-left: 2px;
+    padding-right: 2px;
+    animation: gradient_f 10s ease-in infinite;
+}
+
+#workspaces button.persistent {
+
+	background: transparent;
+	color: #0362fc;
+	border-radius: 7px;
+}
+
+#taskbar button.active,
+#workspaces button.active {
+	color: black;
+	background-color: #0362fc;
+  	border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.urgent {
+	color: red;
+ 	border-radius: 3px;
+}
+
+
+#pulseaudio.muted {
+  color: red;
+}
+
+#network.disconnected,
+#network.disabled {
+  color: rgb(201, 0, 7);
+}
+
+#backlight-slider slider,
+#pulseaudio-slider slider {
+	min-width: 0px;
+	min-height: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+
+#backlight-slider trough,
+#pulseaudio-slider trough {
+	min-width: 80px;
+	min-height: 5px;
+	border-radius: 5px;
+}
+
+#backlight-slider highlight,
+#pulseaudio-slider highlight {
+	min-height: 10px;
+	border-radius: 5px;
+}
+
