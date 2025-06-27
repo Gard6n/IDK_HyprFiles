@@ -22,6 +22,8 @@ This is my personal dotfiles that I use for hyprland
 - [vesktop](https://github.com/Vencord/Vesktop)
 - [spotify](https://github.com/kpcyrd/spotify-launcher)
 
+> You can easily install these dotfiles by using [Stow](https://github.com/aspiers/stow)
+
 
 ## -- Look --
 ![image](https://github.com/user-attachments/assets/f61433b5-8d7d-4fb6-b6f1-eaefd5ba654b)
