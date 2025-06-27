@@ -168,7 +168,6 @@ window#waybar.hidden {
  	padding-left: 2px;
     padding-right: 2px;
     animation: gradient_f 10s ease-in infinite;
-    transition: all 0s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.persistent {

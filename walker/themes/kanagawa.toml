@@ -1,10 +1,18 @@
-
 [ui.anchors]
 bottom = true
-left = false
+left = true
 right = false
-top = false
+top = false 
 
-[ui.window.margins]
-bottom = 32
+[ui.window.box.scroll.list]
+max_height = 550
+min_height = 550
+max_width = 610
+min_width = 610
+width = 610
+height = 550
+
+
+[ui.window.box.scroll.list.item.icon]
+pixel_size = "42"
 

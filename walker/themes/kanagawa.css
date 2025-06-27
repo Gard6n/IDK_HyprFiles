@@ -3,6 +3,8 @@
 @define-color background hsla(240, 12.7%, 13.9%, 0.98);
 @define-color color1 hsl(172, 100%, 25.3%);
 
+@define-color main_color #0362fc;
+
 #window,
 #box,
 #aiScroll,
@@ -24,6 +26,8 @@ slider,
 #sub,
 #activationlabel {
   all: unset;
+  border-radius: 15px;
+  border-width: 6px;
 }
 
 #cfgerr {
@@ -38,13 +42,28 @@ slider,
 }
 
 #box {
-  border-radius: 2px;
-  background: rgba(19, 23, 27, 0.916);
-  padding: 11px;
-  border: 1px solid lighter(@background);
+  background: rgba(0, 0, 0, 0.916);
+  padding: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border: 1px solid lighter(@main_color);
+  border-radius: 15px;
+  border-width: 6px;
   box-shadow:
     0 19px 38px rgba(0, 0, 0, 0.3),
     0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+
+#list :hover{
+  border-radius: 10px;
+	background-color:  @main_color;
+ 	padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 #search {
@@ -52,10 +71,11 @@ slider,
     0 1px 3px rgba(0, 0, 0, 0.595),
     0 1px 2px rgb(0, 0, 0);
   background: lighter(@background);
-  padding: 7px;
+  margin-bottom: 13px;
+  padding: 8px;
 }
 
 #icon {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 

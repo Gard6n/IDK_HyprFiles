@@ -33,7 +33,6 @@
 	"tooltip-format": "Launch Browser",
 },
 
-
 // Hypridle inhibitor
 "custom/hypridle": {
 	"format": "󱫗 ",
