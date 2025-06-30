@@ -133,7 +133,7 @@
 
 "clock#5": {
     "format": "{:%a %d | %I:%M %p}", // AM PM format
-	"format-alt": "{:%A, %d %B, %Y (%R)}",
+	"format-alt": "{:%A, %d %B, %Y (%I:%M %p)}",
 	"tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
 },
 

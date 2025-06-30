@@ -21,15 +21,13 @@
 "margin-bottom": 2,
 	
 "modules-left": [
-	"clock#5", 
-	"custom/separator#line",
+	"hyprland/workspaces#roman",
 	"tray", 
 	"group/notify",
-	"custom/separator#line",
-	"custom/playerctl"
+	"clock#5" 
 	],
   
-"modules-center": ["hyprland/workspaces#roman"], 
+"modules-center": ["custom/playerctl"], 
 	
 "modules-right": [
 	"bluetooth",

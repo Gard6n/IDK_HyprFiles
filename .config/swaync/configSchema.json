@@ -116,12 +116,12 @@
     "timeout": {
       "type": "integer",
       "description": "The notification timeout for notifications with normal priority",
-      "default": 10
+      "default": 6
     },
     "timeout-low": {
       "type": "integer",
       "description": "The notification timeout for notifications with low priority",
-      "default": 5
+      "default": 3
     },
     "timeout-critical": {
       "type": "integer",

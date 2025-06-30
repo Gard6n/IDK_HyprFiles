@@ -1,1 +1,1 @@
-uwsm app -- kitty
+uwsm app -- kitty  

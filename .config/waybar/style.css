@@ -27,7 +27,6 @@ window#waybar.hidden {
 #backlight,
 #backlight-slider,
 #battery,
-#bluetooth,
 #clock,
 #cpu,
 #disk,
@@ -36,7 +35,6 @@ window#waybar.hidden {
 #memory,
 #mode,
 #mpris,
-#network,
 #power-profiles-daemon,
 #pulseaudio,
 #pulseaudio-slider,	
@@ -130,7 +128,39 @@ window#waybar.hidden {
 	opacity: 0.8;
 }
 
+#network{
+	padding: 4px 6px;
+	border-radius: 0 11px 11px 0;
+    border-width: 0px;
+	margin-top: 6px; 
+ 
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
 
+	color: #0362fc;
+	background-color: #000000;
+	opacity: 0.8;
+
+}
+
+#bluetooth{
+	margin-top: 6px; 
+	margin-left: 6px;
+	padding: 4px 6px;
+	border-radius: 11px 0 0 11px;
+	border-width: 0px;
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+
+	color: #0362fc;
+	background-color: #000000;
+	opacity: 0.8;
+}
 
 
 /*-----Indicators----*/
