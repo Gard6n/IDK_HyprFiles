@@ -11,6 +11,7 @@ disable_click_to_close = false
 force_keyboard_focus = true
 
 
+
 [keys]
 accept_typeahead = ["tab"]
 trigger_labels = "lalt"
